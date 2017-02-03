@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Pages\BuscaMedico.aspx" />
     <Content Include="Pages\css\Copy of theme.css" />
     <Content Include="Pages\css\style.css" />
     <Content Include="Pages\css\switch.css" />
@@ -149,6 +150,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BuscaMedico.aspx.cs">
+      <DependentUpon>BuscaMedico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BuscaMedico.aspx.designer.cs">
+      <DependentUpon>BuscaMedico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Perfil.aspx.cs">
       <DependentUpon>Perfil.aspx</DependentUpon>
